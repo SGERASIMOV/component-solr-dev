@@ -12,7 +12,7 @@ application:
     input.solr-quantity: 4 ### Solr hosts numbers. 4 hosts used for 2-shard configration
     input.zookeeper-quantity: 3 ### Zookkeper hosts quantity
     input.recipe-url: "https://s3.amazonaws.com/qubell-starter-kit-artifacts/qubell-bazaar/component-solr-dev-cookbooks-stable-5615ca0.tar.gz" 
-    input.operating-system: {image: "us-east-1/ami-1ba18d72", identity: ec2-user} ### image/identity pair for describing Operating system for the instance
+    input.operating-system: {image: "us-east-1/ami-86452990", identity: ubuntu} ### image/identity pair for describing Operating system for the instance
     input.instance-size: "m1.small" ### EC2 instance type
 
 # Binding section.
@@ -83,7 +83,7 @@ application:
              suggestions:
                  "centos": {image: "us-east-1/ami-bf5021d6", identity: root}
                  "amazon": {image: "us-east-1/ami-1ba18d72", identity: ec2-user}
-                 "ubuntu1204": {image: "us-east-1/ami-967edcff", identity: ubuntu}
+                 "ubuntu1204": {image: "us-east-1/ami-86452990", identity: ubuntu}
                  "ubuntu1004": {image: "us-east-1/ami-9f3906f6", identity: ubuntu}
           app-port:
              type: configuration(int)
