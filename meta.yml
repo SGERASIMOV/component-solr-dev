@@ -5,7 +5,7 @@ kit:
     - name: "Solr Cloud"
       manifest: https://raw.github.com/qubell-bazaar/component-solr-dev/1.2.1-34p/component-solr-dev.yml
     - name: "Application Server"
-      manifest: https://raw.github.com/qubell-bazaar/component-tomcat-dev/1.0-34p/component-tomcat-dev.yml
+      manifest: https://raw.github.com/qubell-bazaar/component-tomcat-dev/1.0-35p/component-tomcat-dev.yml
     - name: "Zookeeper"
       manifest: https://raw.github.com/qubell-bazaar/component-zookeeper-dev/1.0-34p/component-zookeeper-dev.yml 
   provider:
